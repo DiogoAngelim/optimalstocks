@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>vesple – Embrace the power of stocks investing</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Make informed and strategic stocks investment choices, actively nurture your financial well-being and work towards achieving a state of prosperity.">
+
+<link rel="stylesheet" id="preloader-plus-css" href="/wp-content/plugins/preloader-plus/assets/css/preloader-plus.min.css?ver=2.2.1" type="text/css" media="all">
+<style id="preloader-plus-inline-css" type="text/css">.preloader-plus {background-color: #ffffff; }body.complete > *:not(.preloader-plus),.preloader-plus {transition-duration: 1000ms,1000ms,0s; }.preloader-plus * {color: #65615F; }.preloader-plus.complete {opacity: 0; transform:  scale(1); transition-delay: 0s,0s,1000ms; }.preloader-plus .preloader-site-title {font-weight: bold; font-size: 50px; text-transform: none; }.preloader-plus #preloader-counter {font-weight: bold; font-size: 24px; }.preloader-plus .preloader-plus-custom-content {font-weight: bold; font-size: 24px; text-transform: none; }.preloader-plus-default-icons {width: 80px; height: 80px; }.preloader-plus .preloader-custom-img {animation: preloader-none 1500ms linear infinite; width: 250px; }.preloader-plus .prog-bar {height: 3px; background-color: #3547a4; }.preloader-plus .prog-bar-bg {height: 3px; background-color: #ffffff; }.preloader-plus .prog-bar-wrapper {top: 0; padding-top: 0; width: 100%; }</style>
+<style id="riskdivider-theme" type="text/tailwindcss">html {
+	font-size: 1px;
+	font-family: "Figtree";
+}
+
+@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 300;
+	font-display: swap;
+	src: url(/wp-content/themes/riskdivider/fonts/figtree.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url(/wp-content/themes/riskdivider/fonts/figtree.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+	src: url(/wp-content/themes/riskdivider/fonts/figtree.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url(/wp-content/themes/riskdivider/fonts/figtree.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+	font-family: 'Figtree';
+	font-style: normal;
+	font-weight: 700;
+	font-display: swap;
+	src: url(/wp-content/themes/riskdivider/fonts/figtree.woff2) format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.text-style-12 {
+	@apply text-custom-4xl font-semibold text-dark-two;
+}
+.text-style-3 {
+	@apply text-custom-4xl font-semibold text-dark;
+}
+.text-style-10 {
+	@apply text-custom-3xl font-semibold text-dark;
+}
+.text-style-20 {
+	@apply text-custom-2xl leading-tight text-center font-semibold text-dark;
+}
+.text-style-19 {
+	@apply text-custom-2xl leading-tight text-center text-dark;
+}
+.text-style-18 {
+	@apply text-custom-lg font-semibold text-white;
+}
+.text-style-23 {
+	@apply text-custom-lg leading-tight font-semibold text-dark-two;
+}
+.text-style-25 {
+	@apply text-custom-lg leading-tight text-right text-dark-four;
+}
+.text-style-26 {
+	@apply text-custom-lg text-dark-five;
+}
+.text-style-6 {
+	@apply text-custom-lg leading-tight text-dark;
+}
+.text-style-7 {
+	@apply text-custom-lg leading-tight text-dark-three;
+}
+.text-style {
+	@apply text-custom-sm font-bold text-white;
+}
+.text-style-17 {
+	@apply text-custom-sm leading-tight font-bold text-dark-two;
+}
+.text-style-2 {
+	@apply text-custom-sm leading-tight font-bold text-white;
+}
+.text-style-5 {
+	@apply text-custom-sm font-bold text-dark-two;
+}
+.text-style-11 {
+	@apply text-custom-sm text-dark-three;
+}
+.text-style-13 {
+	@apply text-custom-sm text-bluey-grey;
+}
+.text-style-4 {
+	@apply text-custom-sm text-dark-two;
+}
+.text-style-14 {
+	@apply text-custom-xs font-semibold text-dark-blue-grey;
+}
+.text-style-15 {
+	@apply text-custom-xs leading-tight text-bluey-grey-three;
+}
+.text-style-16 {
+	@apply text-custom-xs leading-tight text-bluey-grey-four;
+}
+.text-style-21 {
+	@apply text-custom-xs leading-tight text-dark-two;
+}
+.text-style-22 {
+	@apply text-custom-xs leading-tight text-white;
+}
+.text-style-24 {
+	@apply text-custom-xs leading-tight text-center text-dark;
+}
+.text-style-8 {
+	@apply text-custom-xs leading-tight text-bluey-grey;
+}
+.text-style-9 {
+	@apply text-custom-xs leading-tight text-bluey-grey-two;
+}
+
+
+.current-tab__assets .tab:not(.tab__assets) span,
+.current-tab__investment .tab:not(.tab__investment) span,
+.current-tab__portfolio .tab:not(.tab__portfolio) span {
+	@apply text-cloudy-blue-two;
+}
+
+.current-tab__assets .tab__assets span,
+.current-tab__investment .tab__investment span,
+.current-tab__portfolio .tab__portfolio span {
+	@apply text-style-5;
+}
+
+.current-tab__assets .tab__assets,
+.current-tab__investment .tab__investment,
+.current-tab__portfolio .tab__portfolio {
+	border-bottom: 3px solid #3547a4;
+}
+
+.current-tab__assets .tab__assets circle:not(:nth-last-child(2)),
+.current-tab__investment .tab__investment path:last-child,
+.current-tab__portfolio .tab__portfolio path:last-child {
+	@apply fill-dark-two;
+}
+
+body:not(.current-tab__assets) .tab__assets circle:not(:nth-last-child(2)),
+body:not(.current-tab__investment) .tab__investment path:last-child,
+body:not(.current-tab__portfolio) .tab__portfolio path:last-child {
+	@apply fill-cloudy-blue-two;
+}
+
+input:focus, textarea:focus {
+	outline: 0;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	@apply text-cloudy-blue-two;
+	opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	@apply text-cloudy-blue-two;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+	@apply text-cloudy-blue-two;
+}</style>
+<style id="riskdivider-assets-css" type="text/tailwindcss">.input-wrapper > div:after {
+  content: '';
+  transition: all 400ms ease;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  height: 2rem;
+  transform: translateX(-50%);
+  @apply bg-denim-blue;
+}
+
+.input-wrapper > div:focus-within:after {
+  width: 100%;
+}
+
+.tt-menu {
+  margin-top: 8rem;
+  width: 100%;
+  background: white;
+  @apply border-pale-grey-two border-[1px] border-solid; 
+  border-radius: 8rem;
+}
+
+.tt-suggestion {
+  cursor: pointer;
+}
+
+.tt-suggestion:hover * {
+  color: white;
+}
+
+[id*="chart"] {
+  position: relative;
+  overflow: hidden;
+}
+
+[id*="chart"] svg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: scale(1.35);
+    transform-origin: 8px 100%;
+    z-index: 0;
+    height: 43%;
+}
+
+[id*="chart"] *:not(svg) {
+  z-index: 1;
+}
+
+.chart2-current path {
+  @apply stroke-iris;
+  stroke-width: 1.5;
+}
+
+.tab.available {
+    cursor: pointer;
+}
+
+.tab:not(.available) {
+  cursor: not-allowed;
+}
+
+.steps-close-button:hover path:last-child {
+    fill: #212a34;
+}
+
+.tab.available:hover span {
+    filter: contrast(0.4);
+}
+
+
+
+.assets-wrapper .grid > div {
+  position: relative;
+}
+
+.assets-wrapper .grid > div:after {
+  content: '';
+  border-top-left-radius: 20px;
+  width: 50px;
+  height: 43px;
+  background: #f8f9fa;
+  position: absolute;
+  bottom: -2px;
+  right: 2px;
+  border-left: 1px solid #e5e7ec;
+  border-bottom: 1px solid #f8f9fa;
+}
+
+.add-asset {
+  position: relative;
+  left: 143px;
+  padding: 20px;
+  background: white;
+  transform: translateX(-50%);
+  border-left: 1px solid #e5e7ec;
+  border-right: 1px solid #e5e7ec;
+  border-bottom: 1px solid #e5e7ec;
+  border-bottom-left-radius: 30px;
+  width: 93%;
+}
+
+.add-asset:before {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  border-top-right-radius: 20px;
+  background: #f8f9fa;
+  width: 100px;
+  height: calc(100% + 1px);
+  content: '';
+  border-right: 1px solid #e5e7ec;
+  border-bottom: 1px solid #f8f9fa;
+}
+
+.add-asset:after {
+  position: absolute;
+  left: 39px;
+  top: 40px;
+  border-bottom-left-radius: 20px;
+  background: white;
+  width: calc(100% - 86px);
+  height: calc(40% + 1px);
+  content: '';
+  border-bottom: 1px solid #e5e7ec;
+  border-left: 1px solid #e5e7ec;
+  border-right: 1px solid #e5e7ec;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.add-asset input {
+  opacity: 0;
+}
+
+.add-asset span {
+  transition: all 400ms ease-in-out;
+}
+
+[id*="chart"]:focus {
+  border: 3px solid #3547a4;
+}
+
+[id*="chart"] > div svg {
+  height: auto;
+  top: 10px;
+  transform: scale(.8);
+  transform-origin: 0;
+  left: auto;
+  right: 10px;
+  cursor: pointer;
+}</style>
+<style id="riskdivider-profile-css" type="text/tailwindcss">.disabled {
+  filter: grayscale(1);
+}
+.disabled a {
+  cursor: not-allowed;
+}
+.splash-step:not(:first-child) {
+  display: none;
+}
+.navigation-step.current a {
+  font-size: 1rem;
+  line-height: inherit;
+  list-style: none;
+  box-sizing: border-box;
+  border-style: solid;
+  color: inherit;
+  text-decoration: inherit;
+  position: relative;
+  display: flex;
+  height: 32rem;
+  width: 32rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999rem;
+  border-width: 8rem;
+  background-color: white;
+}
+.navigation-step.current a span:first-child {
+  font-size: 1rem;
+  line-height: inherit;
+  list-style: none;
+  color: inherit;
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  height: 10rem;
+  width: 10rem;
+  border-radius: 9999rem;
+  @apply bg-iris-two;
+}
+li.navigation-step.completed a:before {
+  content: '';
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" class="w-[20rem] h-[20rem] text-white" viewBox="0 0 20 20" fill="white" aria-hidden="true"> <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /> </svg>');
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  width: 18rem;
+  height: 18rem;
+}
+.navigation-step.completed a {
+  @apply bg-iris-two;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  position: relative;
+  display: flex;
+  height: 32rem;
+  width: 32rem;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-step.completed > div > div {
+  @apply bg-iris-two;
+}
+.rounded-full {
+  border-radius: 50%;
+}
+.commitment-label {
+  position: relative;
+  background: #f8f8f8;
+  border-radius: 50rem;
+  width: 50rem;
+  height: 50rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #202020;
+  cursor: pointer;
+}
+.commitment-label:hover, .commitment-label.active {
+  background: #485cc50f;
+}
+.commitment-label input {
+  top: 0;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  visibility: hidden;
+}
+[name="marketing[]"]:checked + div:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 0 0 3rem #e32026;
+}
+.service-item.active {
+  background: #202020;
+}
+.promise-item:hover, .promise-item.active {
+  background: #e320260f;
+}
+.disabled {
+  filter: grayscale(1);
+}
+.disabled a {
+  cursor: not-allowed;
+}
+.splash-step:not(:first-child) {
+  display: none;
+}
+li.navigation-step.completed a:before {
+  content: '';
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" class="w-[20rem] h-[20rem] text-white" viewBox="0 0 20 20" fill="white" aria-hidden="true"> <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /> </svg>');
+  position: absolute;
+  top: 7rem;
+  left: 7rem;
+  width: 18rem;
+  height: 18rem;
+}
+.navigation-step.completed a {
+  background: #485cc5;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+  position: relative;
+  display: flex;
+  height: 32rem;
+  width: 32rem;
+  align-items: center;
+  justify-content: center;
+}
+.navigation-step.completed > div > div {
+  background: #485cc5;
+}
+.progress-container:after,.progress-container:before{
+ content:"";
+ display:table;
+ clear:both;
+}
+.progress-container{
+ padding: 1.5rem 10rem;
+ font-size: 12rem;
+  margin-top: 40rem;
+  width: 0
+}
+.progress-center{
+ text-align:center;
+}
+.progress-red{
+ color:#FFFFFF;
+ background-color:#485cc5;
+}
+.progress-light-grey{
+ color:#000;
+ background-color:#f1f1f1;
+}
+.progress-container {
+  transition: width 6000ms cubic-bezier(1.000, 0.520, 0.185, 0.155);
+}
+.progress-container.animate {
+  width: 100%;
+}
+.splash-visible .splash-screen {
+  overflow-y: scroll;
+  height: calc(100% - 120rem);
+}
+.splash-screen {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.splash-screen::-webkit-scrollbar {
+  display: none;
+}
+.splash-screen > div:first-of-type {
+  position: absolute;
+  top: 0;
+}
+.splash-screen [style="opacity: 0;"] {
+  opacity: 1 !important;
+}
+a#splash-previous {
+  left: 20rem;
+  position: absolute;
+  top: 25rem;
+}
+#splash-previous {
+  display: none;
+}
+#splash-previous:hover svg {
+  stroke: #485cc5;
+}
+
+@media (max-width: 991px) {
+  #splash-form {
+      padding-left: 20rem;
+      padding-right: 20rem;
+      max-width: 100%;
+ }
+  .splash-screen {
+      margin-left: 0;
+      max-width: 100%;
+ }
+  .splash-step h1 {
+      font-size: 24rem;
+      line-height: 32rem;
+      letter-spacing: 0;
+ }
+  .commitment-label {
+      font-size: 14rem;
+      height: 25rem;
+ }
+  [data-current-step="14"] .flex {
+      gap: 10rem;
+ }
+  .splash-step p:first-of-type {
+      font-size: 16rem;
+ }
+  [data-current-step="13"] .splash-step .text-white.flex {
+      flex-direction: column;
+ }
+  [data-current-step="13"] .splash-step .flex .text-\[46rem\] {
+      font-size: 30rem;
+      margin-top: 20rem;
+ }
+  [data-current-step="12"] .h-\[250rem\] {
+      height: 100%;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      max-width: 100%;
+ }
+  .urgency-item p {
+      line-height: 32rem;
+ }
+  [data-current-step="11"] .splash-step .w-full.h-full.bg-\[\#202020\].inline-flex.rounded-b-\[10rem\].bg-gradient-to-b.from-\[\#f5f5f5\].to-black.p-\[1rem\] {
+      max-width: calc(100vw - 40rem);
+      font-size: 16rem;
+ }
+  [data-current-step="11"] .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="10"] .splash-step .h-\[200rem\].w-\[750rem\].mx-auto.mb-\[30rem\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="9"] .splash-step .h-\[200rem\].w-\[750rem\].mx-auto.mb-\[30rem\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="8"] .splash-step .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="7"] .splash-step .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="6"] .splash-step .h-\[250rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].text-\[22rem\].gap-\[15rem\].grid.grid-cols-2.content-center {
+      height: 100%;
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+      max-width: 100%;
+      line-height: 32rem;
+ }
+  [data-current-step="5"] .splash-step .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].text-\[22rem\].flex-col.justify-center.items-center.flex {
+      max-width: 100%;
+ }
+  [data-current-step="4"] .splash-step .w-\[650rem\].mx-auto.mt-\[50rem\].mb-\[50rem\].text-\[22rem\].grid-cols-4.grid.gap-\[50rem\] {
+      max-width: 100%;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 50rem 0rem;
+ }
+  [data-current-step="3"] .splash-step .h-\[200rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].text-\[22rem\].justify-center.items-center.flex.gap-\[15rem\] {
+      max-width: 100%;
+ }
+  [data-current-step="2"] .splash-step .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\].flex-col.flex {
+      max-width: 100%;
+ }
+  [data-current-step="1"] .splash-step .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\].flex-col.flex {
+      max-width: 100%;
+ }
+  .splash-step:first-child .h-\[100rem\].w-\[750rem\].mx-auto.mt-\[40rem\].mb-\[30rem\].opacity-\[0\.65\].text-\[22rem\] {
+      max-width: 100%;
+      height: 100%;
+      font-size: 16rem;
+      line-height: 28rem;
+ }
+}
+@media(max-width: 630px) {
+  .splash-navigation {
+      transform: scale(0.68);
+      padding-top: 100rem;
+ }
+  .splash-visible .splash-screen {
+      overflow-y: scroll;
+      height: 100%;
+      margin-top: 0;
+ }
+}
+.input-wrapper > div:after {
+  content: '';
+  transition: all 400ms ease;
+  width: 0;
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  height: 2rem;
+  transform: translateX(-50%);
+  @apply bg-denim-blue;
+}
+.input-wrapper > div:focus-within:after {
+  width: 100%;
+}
+.offer-item {
+  border-width: 2px;
+  border-style: solid;
+  border-color: transparent;
+}
+.offer-item.active {
+  @apply border-iris;
+  box-shadow: inset 0px 0 0 5px #f8f9fa;
+}
+.budget-item > div, .urgency-item > div {
+  background-color: #f3f4f6;
+}
+.budget-item.active > div, .urgency-item.active > div {
+  background-repeat: no-repeat;
+  background-size: 60%;
+  @apply bg-iris;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>');
+  background-position: center;
+  border: 2px solid #f3f4f6;
+}
+.marketing-item {
+  user-select: none;
+}
+.marketing-item.active > div {
+  position: absolute;
+  top: -3rem;
+  left: -3rem;
+  width: 30rem;
+  height: 30rem;
+  border-radius: 50%;
+  border: 3rem solid white;
+  background-repeat: no-repeat;
+  background-size: 60%;
+  @apply bg-iris;
+  background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>');
+  background-position: center;
+  border: 2px solid #f3f4f6;
+}
+label.bg-white:not(.marketing-item) {
+  font-size: 55rem;
+}
+label.bg-white p {
+  font-size: 20rem;
+}
+label.marketing-item.rounded-\[30rem\].relative.p-\[15rem\].bg-white.h-\[75rem\].w-\[75rem\].flex.items-center.justify-center {
+  border-radius: 50%;
+}</style>
+<script type="text/javascript" src="./wp-includes/js/jquery/jquery.min.js?ver=3.7.0" id="jquery-core-js"></script>
+<script type="text/javascript" id="preloader-plus-js-extra">
+/* <![CDATA[ */
+var preloader_plus = {"animation_delay":"500","animation_duration":"1000"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="/wp-content/plugins/preloader-plus//assets/js/preloader-plus.min.js?ver=2.2.1" id="preloader-plus-js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/tailwind.js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/config.js?ver=1.0.1" id="riskdivider-config-js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/jquery.js?ver=1.0.1" id="riskdivider-jquery-js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/smoothstate.js?ver=1.0.1" id="riskdivider-smoothstate-js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/loader.js?ver=1.0.1" id="riskdivider-loader-js"></script>
+<link rel="https://api.w.org/" href="./wp-json/index.html">
+<link rel="alternate" type="application/json" href="./wp-json/wp/v2/pages/22/index.html">
+<link rel="shortlink" href="./index.html">
+<link rel="alternate" type="application/json+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F">
+<link rel="alternate" type="text/xml+oembed" href="./wp-json/oembed/1.0/embed/index.html?url=.%2F%2F#038;format=xml">
+<link rel="icon" href="/wp-content/uploads/2023/08/icon.png" sizes="32x32">
+<link rel="icon" href="/wp-content/uploads/2023/08/icon.png" sizes="192x192">
+<link rel="apple-touch-icon" href="/wp-content/uploads/2023/08/icon.png">
+<meta name="msapplication-TileImage" content="/wp-content/uploads/2023/08/icon.png">
+	</head>
+
+	<body class="min-h-[100vh] bg-gradient-to-br from-dark-slate-blue to-denim-blue to-[106%] bg-no-repeat">
+	
+	<div id="main">
+		
+<div class="text-center">
+  
+  <!-- My ad unit -->
+  <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4110351053888517" data-ad-slot="8280303596" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  <img class="h-[194rem] w-[152rem] m-auto my-[193rem] mb-[33rem]" src="/wp-content/themes/riskdivider/icons/splash/cloud.svg" alt="Image">
+  <div class="w-[320rem] m-auto text-center text-white text-custom-lg leading-tight mb-[32rem]">
+    Make informed and strategic investment choices, actively nurture your financial well-being and work towards achieving a state of prosperity.
+  </div>
+  <a href="./profile/index.html" class="text-center inline-block m-auto border-white border-[1px] border-solid rounded-lg px-[48rem] py-[17rem] text-white text-[14rem] font-bold hover:border-[#95aeed] active:border-cloudy-blue uppercase">Create portfolio</a>
+</div>
+
+						 <div class="preloader-plus"> 			<div class="prog-bar-wrapper">
+				<div class="prog-bar-bg"></div>
+				<div class="prog-bar"></div>
+			</div> 			 <div class="preloader-content"> 
+			 </div>
+		 </div> <script type="text/javascript" defer src="/wp-content/themes/riskdivider/js/typeahead.js?ver=1.0.1" id="riskdivider-typeahead-js"></script>
+<script type="text/javascript" defer src="/wp-content/themes/riskdivider/js/d3.js?ver=1.0.1" id="riskdivider-d3-js"></script>
+<script type="text/javascript" defer src="/wp-content/themes/riskdivider/js/rickshaw.js?ver=1.0.1" id="riskdivider-rickshaw-js"></script>
+<script type="text/javascript" defer src="/wp-content/themes/riskdivider/js/assets.js?ver=1.0.1" id="riskdivider-assets-js-js"></script>
+<script type="text/javascript" defer src="/wp-content/themes/riskdivider/js/profile.js?ver=1.0.1" id="riskdivider-profile-js-js"></script>
+<script type="text/javascript" src="/wp-content/themes/riskdivider/js/new.js?ver=1.0.1" id="riskdivider-new-js-js"></script>
+			</div> <!-- Main -->
+		</body>
+	
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.boldgrid.com/w3-total-cache/
+
+Object Caching 2/28 objects using disk
+Page Caching using disk: enhanced (Requested URI contains query) 
+
+Served from: localhost @ 2023-09-24 12:50:33 by W3 Total Cache
+-->
+</html>
