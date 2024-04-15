@@ -179,7 +179,7 @@ $(document).ready(() => {
     datumTokenizer: Bloodhound.tokenizers.whitespace('name', 'symbol', 'market'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     remote: {
-      url: 'https://optimalstocks-2a11d5c416fd.herokuapp.com/vesple/optimalstocks/stocks_suggestion.php?country='+country+'&search=%QUERY',
+      url: 'http://177.205.193.143:8888/vesple/optimalstocks/vesple/optimalstocks/stocks_suggestion.php?country='+country+'&search=%QUERY',
       wildcard: '%QUERY',
     }
   });
