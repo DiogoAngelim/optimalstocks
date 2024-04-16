@@ -1,3 +1,8 @@
+## About 
+
+Find the optimal allocation of each of your stocks, crypto or ETFs and see how changes would impact your portfolio's performance.
+
+
 ## Demo
 
 [View Live Demo](https://funky-profound-tarpon.ngrok-free.app/vesple/optimalstocks/)
