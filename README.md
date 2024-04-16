@@ -1,3 +1,5 @@
+[Demo](https://6a42-2804-1b1-8b00-2353-8520-5abf-5f52-c5f.ngrok-free.app/vesple/optimalstocks/)
+
 # TODO
 
 - [ ] Set up a server for the PHP files
