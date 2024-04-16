@@ -1,4 +1,6 @@
-[View Live Demo](https://6a42-2804-1b1-8b00-2353-8520-5abf-5f52-c5f.ngrok-free.app/vesple/optimalstocks/)
+## Demo
+
+[View Live Demo](https://funky-profound-tarpon.ngrok-free.app/vesple/optimalstocks/)
 
 ## TODO
 
