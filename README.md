@@ -1,8 +1,8 @@
 [Demo](https://6a42-2804-1b1-8b00-2353-8520-5abf-5f52-c5f.ngrok-free.app/vesple/optimalstocks/)
 
-# TODO
+## TODO
 
-- [ ] Set up a server for the PHP files
+- [x] Set up a server for the PHP files
 - [ ] Make cron jobs to fetch some fresh data
 - [ ] Integrate web form to Hubspot
 - [ ] Complete some frontend changes & bug fixes
