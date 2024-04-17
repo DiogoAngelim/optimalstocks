@@ -179,7 +179,7 @@ $(document).ready(() => {
     datumTokenizer: Bloodhound.tokenizers.whitespace('name', 'symbol', 'market'),
     queryTokenizer: Bloodhound.tokenizers.whitespace,
     remote: {
-      url: 'https://6a42-2804-1b1-8b00-2353-8520-5abf-5f52-c5f.ngrok-free.app/vesple/optimalstocks/stocks_suggestion.php?country='+country+'&search=%QUERY',
+      url: 'https://funky-profound-tarpon.ngrok-free.app/vesple/optimalstocks/stocks_suggestion.php?country='+country+'&search=%QUERY',
       wildcard: '%QUERY',
     }
   });
