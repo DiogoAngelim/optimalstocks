@@ -1,8 +1,8 @@
 [Demo](https://funky-profound-tarpon.ngrok-free.app/vesple/optimalstocks/)
 
-# TODO
+## TODO
 
-- [ ] Set up a server for the PHP files
+- [x] Set up a server for the PHP files
 - [ ] Make cron jobs to fetch some fresh data
 - [ ] Integrate web form to Hubspot
 - [ ] Complete some frontend changes & bug fixes
