@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const cron = require('node-cron');
 
-const lists = [ 'br', 'crypro', 'forex', 'US', 'ETF' ];
+const lists = [ 'BR', 'CA', 'CH', 'crypro', 'DE', 'forex', 'IN', 'JP', 'UK', 'US' ];
 const fromTimestamp = Math.round(new Date(new Date().setFullYear(new Date().getFullYear() - 2)).valueOf() / 1000);
 const toTimestamp = Math.round(new Date().valueOf() / 1000);
 

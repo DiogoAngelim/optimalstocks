@@ -1,0 +1,30 @@
+<!-- by TradingView --><svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="18" height="18" fill="#F0F3FA"/>
+<path d="M12 6C12 7.65685 10.6569 9 9 9C7.34315 9 6 7.65685 6 6C6 4.34315 7.34315 3 9 3C10.6569 3 12 4.34315 12 6Z" fill="url(#paint0_linear_5057_139535)"/>
+<path d="M9 9C9 10.6569 7.65685 12 6 12C4.34315 12 3 10.6569 3 9C3 7.34315 4.34315 6 6 6C7.65685 6 9 7.34315 9 9Z" fill="url(#paint1_linear_5057_139535)"/>
+<path d="M15 9C15 10.6569 13.6568 12 12 12C10.3431 12 8.99997 10.6569 8.99997 9C8.99997 7.34315 10.3431 6 12 6C13.6568 6 15 7.34315 15 9Z" fill="url(#paint2_linear_5057_139535)"/>
+<path d="M12 12C12 13.6569 10.6569 15 9 15C7.34315 15 6 13.6569 6 12C6 10.3431 7.34315 9 9 9C10.6569 9 12 10.3431 12 12Z" fill="url(#paint3_linear_5057_139535)"/>
+<path d="M9 8.99619C8.99794 7.34109 7.65558 6 6 6C6 7.65685 7.34314 9 8.99999 9C7.34315 9 6.00001 10.3431 6 12C7.65558 12 8.99795 10.6589 9 9.0038C9.00205 10.6589 10.3444 12 12 12C12 10.3431 10.6568 9 8.99999 9C10.6569 9 12 7.65685 12 6C10.3444 6 9.00205 7.34109 9 8.99619Z" fill="#F0F3FA"/>
+<defs>
+<linearGradient id="paint0_linear_5057_139535" x1="9" y1="3" x2="9" y2="9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#EC6942"/>
+<stop offset="0.405612" stop-color="#DA0010"/>
+<stop offset="1" stop-color="#A20001"/>
+</linearGradient>
+<linearGradient id="paint1_linear_5057_139535" x1="3" y1="9" x2="9" y2="9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F0D5A0"/>
+<stop offset="0.39274" stop-color="#EFB320"/>
+<stop offset="1" stop-color="#D49708"/>
+</linearGradient>
+<linearGradient id="paint2_linear_5057_139535" x1="15" y1="9" x2="8.99997" y2="9" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F0D5A0"/>
+<stop offset="0.38989" stop-color="#EFB320"/>
+<stop offset="1" stop-color="#D49708"/>
+</linearGradient>
+<linearGradient id="paint3_linear_5057_139535" x1="9" y1="9" x2="9" y2="15" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A20001"/>
+<stop offset="0.612622" stop-color="#DA0010"/>
+<stop offset="1" stop-color="#EC6942"/>
+</linearGradient>
+</defs>
+</svg>
