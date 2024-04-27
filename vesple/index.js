@@ -2,7 +2,6 @@ const fetch = require('node-fetch');
 const fs = require('fs');
 const cron = require('node-cron');
 
-const lists = [ 'BR', 'CA', 'CH', 'crypro', 'DE', 'forex', 'IN', 'JP', 'UK', 'US' ];
 const fromTimestamp = Math.round(new Date(new Date().setFullYear(new Date().getFullYear() - 2)).valueOf() / 1000);
 const toTimestamp = Math.round(new Date().valueOf() / 1000);
 
@@ -28,17 +27,23 @@ async function fetchData(symbol, market) {
 }
 
 
-cron.schedule('0 22 * * 1-5', () => {
+cron.schedule('13 * * * *', () => {
   console.log('At 22:00 on every day-of-week from Monday through Friday.');
 
-  for (let index = 0; index < lists.length; index++) {
-    let rawdata = fs.readFileSync('stocks_list_'+ lists[index] +'.json');
+  const lists = [ 'BR', 'AU', 'CA', 'CH', 'crypro', 'DE', 'forex', 'IN', 'JP', 'UK', 'US', 'HK', 'KSA' ];
+
+  for (let market = 0; market < lists.length; market++) {
+    let rawdata = fs.readFileSync('stocks_list_'+ lists[market] +'.json');
     let assets = JSON.parse(rawdata);
+
+    console.log('Fetching ', lists[markets]);
 
     for (let index = 0; index < assets.length; index++) {
       const symbol = assets[index].symbol;
     
-      fetchData(symbol, lists[index]);
+      fetchData(symbol, lists[markets]);
+
+      console.log('Downloading ', symbol);
     
     }
   }
