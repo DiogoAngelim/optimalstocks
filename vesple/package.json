@@ -9,7 +9,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@slack/webhook": "^7.0.2",
     "fs": "^0.0.1-security",
+    "google-auth-library": "^9.9.0",
+    "googleapis": "^135.0.0",
     "https": "^1.0.0",
     "node-cron": "^3.0.3",
     "node-fetch": "^2.6.12",
