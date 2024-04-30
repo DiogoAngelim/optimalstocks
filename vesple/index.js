@@ -3,7 +3,6 @@ const fs = require('fs');
 const cron = require('node-cron');
 const { IncomingWebhook } = require('@slack/webhook');
 
-const url = 'https://hooks.slack.com/services/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'
 const webhook = new IncomingWebhook(url);
 
 
